@@ -21,7 +21,7 @@ namespace FodyApp
             Console.WriteLine("Hello");
         }
 
-        [FodyTest]
+        [Interceptor]
         public void MyMethod2()
         {
             Console.WriteLine("MyMethod2");
