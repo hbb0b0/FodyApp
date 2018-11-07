@@ -11,6 +11,7 @@ namespace FodyApp
         public void Excute()
         {
             this.MyMethod();
+            this.MyMethod2();
         }
 
         [Time]
@@ -18,6 +19,12 @@ namespace FodyApp
         {
             //Some code u are curious how long it takes
             Console.WriteLine("Hello");
+        }
+
+        [FodyTest]
+        public void MyMethod2()
+        {
+            Console.WriteLine("MyMethod2");
         }
 
        
