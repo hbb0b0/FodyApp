@@ -11,9 +11,13 @@ namespace FodyApp
         public void Excute()
         {
             this.MyMethod();
-            this.MyMethod2();
+            this.FodyMethod("hbb0b0");
+            this.PostSharpMethod("duoduo");
         }
 
+        /// <summary>
+        /// 统计耗时
+        /// </summary>
         [Time]
         public void MyMethod()
         {
@@ -21,12 +25,24 @@ namespace FodyApp
             Console.WriteLine("Hello");
         }
 
-        [Interceptor]
-        public void MyMethod2()
+        /// <summary>
+        /// 方法拦截
+        /// </summary>
+        [MethodInterceptorAttribute]
+        public void FodyMethod(string userName)
         {
-            Console.WriteLine("MyMethod2");
+
         }
 
-       
+
+        [AopLog(Enabled =true)]
+        public void PostSharpMethod(string businessNo)
+        {
+                     
+        }
+
+
+
+
     }
 }
