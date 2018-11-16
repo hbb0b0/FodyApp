@@ -1,11 +1,11 @@
-﻿using FodyApp;
+﻿using AOP.Fody;
 using MethodDecorator.Fody.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 [module: MethodInterceptorAttribute]
-namespace FodyApp
+namespace AOP.Fody
 {
 
     

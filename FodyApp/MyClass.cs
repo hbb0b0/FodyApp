@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace FodyApp
+namespace AOP.Fody
 {
    
     public class MyClass:IRun

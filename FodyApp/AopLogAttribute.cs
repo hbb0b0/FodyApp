@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
 using System.Text;
-[module: FodyApp.AopLogAttribute]
-namespace FodyApp
+[module: AOP.Fody.AopLogAttribute]
+namespace AOP.Fody
 {
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Constructor | AttributeTargets.Assembly | AttributeTargets.Module)]
     public sealed class AopLogAttribute : Attribute, IMethodDecorator
@@ -103,7 +103,7 @@ namespace FodyApp
     }
 
     /// <summary>
-    /// MethodExecutionArgs
+    /// 仿照 PostSharp 的 MethodExecutionArgs
     /// </summary>
     public sealed class MethodExecutionArgs
     {

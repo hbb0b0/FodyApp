@@ -1,5 +1,5 @@
 ﻿using System;
-namespace FodyApp
+namespace AOP.Fody
 {
     class Program
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FodyApp
+namespace AOP.Fody
 {
     interface IRun
     {
