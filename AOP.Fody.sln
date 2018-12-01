@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOP.Fody", "AOP.Fody\AOP.Fody.csproj", "{FD38AE36-F991-46DD-8A87-59EA2FD251DF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FodyLib", "FodyLib", "{66E90084-8C6F-4E7D-8391-1897606E1154}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FodyLib.UnitTest", "FodyLib.UnitTest", "{665AE70F-23C6-4700-8770-52C31B666854}"
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FD38AE36-F991-46DD-8A87-59EA2FD251DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD38AE36-F991-46DD-8A87-59EA2FD251DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD38AE36-F991-46DD-8A87-59EA2FD251DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD38AE36-F991-46DD-8A87-59EA2FD251DF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B0E8A29C-9C68-41A8-9E77-3CEF56A14B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B0E8A29C-9C68-41A8-9E77-3CEF56A14B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0E8A29C-9C68-41A8-9E77-3CEF56A14B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -52,15 +52,9 @@ namespace AOP.FodyLib
         /// <param name="exception"></param>
         public void OnException(Exception exception)
         {
-            try
-            {
-                Console.WriteLine($"MehthdName:{this.method.Name} exception message:{exception.Message}");
-            }
-            finally
-            {
-                ;
-            }
-            
+
+            Console.WriteLine($"MehthdName:{this.method.Name} exception message:{exception.Message}");
+
         }
     }
 }

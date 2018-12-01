@@ -37,3 +37,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyFileVersion("1.0.0.0")]
 //指定织入模块
 [module: FodyMethodInterceptor]
+[module: PostSharpMethodInterceptor]

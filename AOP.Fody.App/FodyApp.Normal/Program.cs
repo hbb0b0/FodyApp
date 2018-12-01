@@ -15,7 +15,13 @@ namespace FodyApp.Normal
             myClass.Excute();
 
             //异常拦截
-            myClass.CalcUserName(null);
+            //myClass.CalcUserName(null);
+            
+
+            //仿PostSharp方法拦截
+            MyPerformanceClass pfClass = new MyPerformanceClass();
+            pfClass.Excute();
+
             Console.Read();
         }
     }
