@@ -54,13 +54,7 @@ namespace AOP.FodyLib
         {
 
             eventArgs = new MethodExecutionArgs(instance, method, args);
-            //TestMessages.Record(string.Format("Init: {0} [{1}]", method.DeclaringType.FullName + "." + method.Name, args.Length));
-            string strArgs = string.Empty;
-            if (args != null)
-            {
-                strArgs = string.Join(",", args);
-            }
-            Console.WriteLine($"Init methodName:{method.Name} args:{strArgs} ");
+           
         }
 
         /// <summary>
