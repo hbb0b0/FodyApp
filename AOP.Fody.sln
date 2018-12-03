@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FodyLib", "FodyLib", "{66E9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FodyLib.UnitTest", "FodyLib.UnitTest", "{665AE70F-23C6-4700-8770-52C31B666854}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOP.FodyLib", "FodyLib\AOP.FodyLib.csproj", "{B0E8A29C-9C68-41A8-9E77-3CEF56A14B8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOP.FodyLib", "FodyLib\AOP.FodyLib.csproj", "{B0E8A29C-9C68-41A8-9E77-3CEF56A14B8A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FodyLib.App", "FodyLib.App", "{61F52759-500A-41FB-B9B7-E657B04EC106}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FodyApp.Normal", "AOP.Fody.App\FodyApp.Normal\FodyApp.Normal.csproj", "{86A4325A-E205-4879-AC46-8E95CD00E34D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FodyApp.Core", "AOP.Fody.App\FodyApp.Core\FodyApp.Core.csproj", "{0B23E502-92BC-4D78-935A-7793AF5A01A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{86A4325A-E205-4879-AC46-8E95CD00E34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86A4325A-E205-4879-AC46-8E95CD00E34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86A4325A-E205-4879-AC46-8E95CD00E34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B23E502-92BC-4D78-935A-7793AF5A01A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B23E502-92BC-4D78-935A-7793AF5A01A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B23E502-92BC-4D78-935A-7793AF5A01A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B23E502-92BC-4D78-935A-7793AF5A01A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B0E8A29C-9C68-41A8-9E77-3CEF56A14B8A} = {66E90084-8C6F-4E7D-8391-1897606E1154}
 		{86A4325A-E205-4879-AC46-8E95CD00E34D} = {61F52759-500A-41FB-B9B7-E657B04EC106}
+		{0B23E502-92BC-4D78-935A-7793AF5A01A6} = {61F52759-500A-41FB-B9B7-E657B04EC106}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D7F0D31-4C71-487A-9BD7-B62BC9450726}
