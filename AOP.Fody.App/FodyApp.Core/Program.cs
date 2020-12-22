@@ -19,6 +19,8 @@ namespace FodyApp.Core
             MyPerformanceClass pfClass = new MyPerformanceClass();
             pfClass.Excute();
 
+            //20201222 update 
+
 
             Console.Read();
         }
