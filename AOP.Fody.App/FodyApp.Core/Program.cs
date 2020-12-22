@@ -19,6 +19,7 @@ namespace FodyApp.Core
             MyPerformanceClass pfClass = new MyPerformanceClass();
             pfClass.Excute();
 
+
             Console.Read();
         }
     }
